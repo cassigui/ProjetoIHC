@@ -1,0 +1,66 @@
+#cadastro {
+  background: rgb(1, 38, 66);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerForm {
+  background: rgba(255,255,255,0.2);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px black;
+  gap: 10px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.containerForm form {
+  border: 2px solid white;
+  padding:30px 40px;
+  border-radius: 5px;
+}
+
+.formCadastro input {
+  background: none;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+.formCadastro input:nth-child(n + 1){
+  margin-right: 15px;
+}
+
+.formCadastro button {
+  border-radius: 5px;
+  padding: 8px 0px;
+  border: none;
+  background: rgb(26, 110, 173);
+}
+
+.formCadastro h1 {
+  color: white;
+  margin: 0px 0px 15px 0;
+}
+
+.formCadastro button:hover {
+  background: rgb(5, 66, 112);
+  cursor: pointer;
+}
+
+.contentInputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.groupInputs {
+  gap: 5px;
+  width: 100%;
+  display: flex;
+}

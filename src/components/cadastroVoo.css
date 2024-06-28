@@ -1,0 +1,31 @@
+.groupInput{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns:1fr 1fr;
+}
+
+.groupInput div input {
+  width: 90%;
+}
+
+.containerFormVoo {
+  background: rgba(0,0,0,0.1);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px black;
+  gap: 10px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
+.containerFormVoo form{
+  border: 2px solid white;
+  padding:30px 40px;
+  border-radius: 5px;
+}
+
+.contentInputs button {
+  width: 50%;
+  margin: 0 auto;
+}
